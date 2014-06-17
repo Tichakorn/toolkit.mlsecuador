@@ -1,0 +1,200 @@
+#featurenavi li .text a{
+    display: inline-block;
+    margin-top: 3px;
+    padding: 8px 8px 4px;
+}
+.galleria-info-description {
+    bottom: 0;
+    color: #FFFFFF;
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    height: 25px;
+    left: 5px;
+    line-height: 1.2em;
+    margin-left: 0.75%;
+    padding: 1%;
+    position: absolute;
+    right: 5px;
+    top: -217px;
+    width: 94.8%;
+}
+body.subsection-gallery .global-wrapper .galleria-container .galleria-thumbnails-list{
+    bottom: -74px;
+}
+.galleria-info {
+    bottom: 89px;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+.galleria-info .galleria-info-title a{
+    display: none;
+}
+#featurenavi li {
+    display: inline-block;   
+}
+.portlet-static .image-inline.external-image {
+    margin-bottom: 10%;
+    margin-top: 10%;
+    max-width: 100%;
+}
+.cover-richtext-tile .image-inline.external-image {
+    max-width: 100%;
+}
+.formid-contact-us {
+    width: 50%;
+}
+.galleria-inner{
+    height: 350px !important;
+}
+.galleria-container.notouch{
+    height: 350px !important;
+}
+.galleria-stage{
+    bottom: 0 !important;
+    top: 0 !important;
+}
+.galleria-images .galleria-image{
+    height: 350px !important;
+}
+.galleria-images .galleria-image img{
+    bottom: 14px !important;
+    top: 14px !important;
+}
+body #portal-columns .portletNavigationTree .navTreeItem a:hover {
+    text-decoration: none;
+}
+body .navTreeItem .state-private {
+    line-height: normal;
+}
+#content-core p.developer_p img{
+    float: left;
+    margin-bottom: 5%;
+    width: auto;
+}
+#content-core p.developer_text_right{
+    float: left;
+    margin-left: 4%;
+    width: 50%;
+    line-height: 1.8em;
+}
+body #portal-columns .portlet.portletNavigationTree {
+    border: none;
+}
+body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem {
+    border-radius: 0.3em;
+    font-size: 1.4em;
+    height: 28px;
+    line-height: inherit;
+    margin-bottom: 4%;
+    padding-top: 9px;
+    text-align: center;
+}
+body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem a{
+    padding: 0 !important;
+}
+body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem a span {
+    font-family: duru sans;
+}
+body .global-wrapper #content {
+    border: none;
+}
+#content p.developer_p {
+    width: 50% !important;
+}
+body .documentFirstHeading {
+    font-size: 21.6px !important;
+    font-family: sanchez;
+}
+body .developer_double-headline {
+    font-size: 21.6px !important;
+    font-family: sanchez;
+}
+body.subsection-properties-available #content .row{
+    margin-bottom:2%
+}
+body .documentDescription {
+    font-size: 15.97px !important;
+}
+body .developer_table {
+    margin: 0;
+    max-width: 100%;
+}
+body .developer_colored-box{
+    font-family: sanchez;
+    font-size: 18px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+body .developer_box {
+    float: none;
+    padding: 2%;
+    margin-bottom: 3%;
+    width: auto;
+}
+body img.developer_box {
+    float: none;
+    padding: 2%;
+    width: 93%;
+}
+body .developer_table table tbody {
+    width: 100% !important;
+}
+body .developer_table table tbody tr {
+    border-top: 1.5px solid threedlightshadow !important;
+}
+body .developer_table table tbody tr:first-child{
+    border-top: none!important;
+}
+body .developer_table table tbody tr th {
+    width: 20% !important;
+}
+body .developer_table table tbody tr:hover {
+    width: 20% !important;
+}
+body .developer_table table tbody tr:hover {
+    width: 20% !important;
+}
+body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem .contenttype-folder,body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem .contenttype-document {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.image-inline{
+    width: 100%;
+}
+@media (min-width: 1200px){
+    body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem a span {
+        font-size: 18px;
+    }
+}
+@media (min-width: 980px) and (max-width:1199px){
+    body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem a span {
+        font-size: 18px;
+    }
+}
+@media (min-width: 768px) and (max-width: 979px){
+    body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem a span {
+        font-size: 13px;
+    }
+    .galleria-info-description {
+        width: 93.3%;
+        margin-left: 1.15%;
+    }
+}
+@media (min-width: 600px) and (max-width: 767px){
+    body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem a span {
+        font-size: 9px;
+    }
+}
+@media (min-width: 581px) and (max-width: 599px){
+    body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem a span {
+        font-size: 10px;
+    }
+}
+@media (min-width: 280px) and (max-width: 580px){
+    .galleria-info-description {
+        width: 92.1%;
+        margin-left: 1.59%;
+    }
+}
