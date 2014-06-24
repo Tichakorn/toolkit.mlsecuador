@@ -1,0 +1,214 @@
+/*in firebug,html code richtextbox have <p><br></p> i don't know where come from*/
+#content .reec-richtextbox-red p br,
+#content .reec-richtextbox-blu p br,
+#content .reec-richtextbox-green p br,
+#content .reec-richtextbox-yellow p br{
+    display:none
+}
+#content .reec-richtextbox-red ul,
+#content .reec-richtextbox-blu ul,
+#content .reec-richtextbox-green ul,
+#content .reec-richtextbox-yellow ul{
+    list-style-type: square;
+}
+#content .reec-richtextbox-red h3,
+#content .reec-richtextbox-blu h3,
+#content .reec-richtextbox-green h3,
+#content .reec-richtextbox-yellow h3{
+    font-family: 'Istok Web',sans-serif !important;
+    color:#000000;
+    font-size:14px;
+    font-weight:bold;
+    line-height: 30px;
+}
+#content-wrapper .reec-richtextbox-yellow .image-inline,
+#content-wrapper .reec-richtextbox-green .image-inline,
+#content-wrapper .reec-richtextbox-blu .image-inline,
+#content-wrapper .reec-richtextbox-red .image-inline{
+    width:auto;   
+}
+#content .title-richtextbox-yellow p,
+#content .title-richtextbox-blue p,
+#content .title-richtextbox-red p,
+#content .title-richtextbox-green p{
+    color: #ffffff;
+    font-family: 'Istok Web',sans-serif !important;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 30px;
+    padding-left: 20px; 
+}
+.reec-mlscollection-red,
+.reec-mlscollection-blue,
+.reec-mlscollection-yellow,
+.reec-mlscollection-green{
+    font-family: 'Istok Web', sans-serif !important;   
+}
+.reec-mlscollection-red .beds_baths .item-body,
+.reec-mlscollection-blue .beds_baths .item-body,
+.reec-mlscollection-yellow .beds_baths .item-body,
+.reec-mlscollection-green .beds_baths .item-body{
+    float:left; 
+    margin-right: 2%;
+}
+.reec-mlscollection-red h2,
+.reec-mlscollection-blue h2,
+.reec-mlscollection-yellow h2,
+.reec-mlscollection-green h2,
+.reec-mlscollection-red h5,
+.reec-mlscollection-blue h5,
+.reec-mlscollection-yellow h5,
+.reec-mlscollection-green h5{
+    font-family: 'Istok Web', sans-serif !important;   
+}
+#content .reec-mlscollection-red .beds_baths .item-heading,
+#content .reec-mlscollection-blue .beds_baths .item-heading,
+#content .reec-mlscollection-yellow .beds_baths .item-heading,
+#content .reec-mlscollection-green .beds_baths .item-heading{
+    color:#000000;   
+    width:25%; 
+}
+.reec-mlscollection-red .price h6,
+.reec-mlscollection-blue .price h6,
+.reec-mlscollection-yellow .price h6,
+.reec-mlscollection-green .price h6,
+.reec-mlscollection-red .location h6,
+.reec-mlscollection-blue .location h6,
+.reec-mlscollection-yellow .location h6,
+.reec-mlscollection-green .location h6{
+    display:none;
+}
+.reec-mlscollection-red .price p,
+.reec-mlscollection-blue .price p,
+.reec-mlscollection-yellow .price p,
+.reec-mlscollection-green .price p{
+    color: #ffffff !important;
+    font-style: italic;
+    line-height: 20px;
+    text-align: right;
+}
+.reec-mlscollection-blue .price,
+.reec-mlscollection-red .price,
+.reec-mlscollection-yellow .price,
+.reec-mlscollection-green .price{
+    padding-right: 1%;
+    position: absolute;
+    right: 0;
+    top: 188px;
+    width: 84%;
+}
+.reec-mlscollection-red .listing-collection-tile figure,
+.reec-mlscollection-blue .listing-collection-tile figure,
+.reec-mlscollection-yellow .listing-collection-tile figure,
+.reec-mlscollection-green .listing-collection-tile figure{
+    border:0;
+    margin:0;
+    padding:0;
+}
+#content .reec-mlscollection-red .listing-collection-tile .collection-item,
+#content .reec-mlscollection-blue .listing-collection-tile .collection-item,
+#content .reec-mlscollection-yellow .listing-collection-tile .collection-item,
+#content .reec-mlscollection-green .listing-collection-tile .collection-item{
+    position:relative;   
+}
+body .reec-mlscollection-red h2,
+body .reec-mlscollection-blue h2,
+body .reec-mlscollection-yellow h2,
+body .reec-mlscollection-green h2{
+    font-size:12px;  
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-style: italic;
+}
+/*------------------------------------------mls mlscollection blue-------------------------------------------------*/
+.reec-mlscollection-blue .price{
+    background-color: rgba(15, 85, 132, 0.7);   
+}
+body .global-wrapper #content .reec-mlscollection-blue h2 a,
+body .global-wrapper #content .reec-mlscollection-blue h2 a:hover{
+    color:#1f608c !important;
+}
+/*------------------------------------------mls mlscollection red-------------------------------------------------*/
+.reec-mlscollection-red .price{
+    background-color: rgba(133, 12, 12, 0.7);
+}
+body .global-wrapper #content .reec-mlscollection-red h2 a,
+body .global-wrapper #content .reec-mlscollection-red h2 a:hover{
+    color:#8d1c1c !important;
+}
+/*------------------------------------------mls mlscollection green-------------------------------------------------*/
+.reec-mlscollection-green .price{
+    background-color: rgba(89, 140, 11, 0.7);
+}
+body .global-wrapper #content .reec-mlscollection-green h2 a,
+body .global-wrapper #content .reec-mlscollection-green h2 a:hover{
+    color:#64941b !important;
+}
+/*------------------------------------------mls mlscollection yellow-------------------------------------------------*/
+.reec-mlscollection-yellow .price{
+    background-color: rgba(217, 181, 74, 0.7);
+}
+body .global-wrapper #content .reec-mlscollection-yellow h2 a,
+body .global-wrapper #content .reec-mlscollection-yellow h2 a:hover{
+    color:#a67437 !important;
+}
+/*------------------------------------------mls richtextbox blue-------------------------------------------------*/
+.reec-richtextbox-blu{
+    background:#a0b7c7;
+    padding-left: 1%;
+}
+#content  .reec-richtextbox-blu li{
+    color:#000;
+    font-size:10px;
+    font-weight: normal;
+    line-height: 14px;
+}
+/*------------------------------------------mls richtextbox red-------------------------------------------------*/
+.reec-richtextbox-red{
+    background:#d6cdc4;
+    padding-left: 1%;
+}
+#content .reec-richtextbox-red li{
+    color:#000;
+    font-size:10px;
+    font-weight: normal;
+    line-height: 14px;
+}
+/*------------------------------------------mls richtextbox green-------------------------------------------------*/
+.reec-richtextbox-green{
+    background:#bccea1;
+    padding-left: 1%;
+}
+#content .reec-richtextbox-green li{
+    color:#000;
+    font-size:10px;
+    font-weight: normal;
+    line-height: 14px;
+}
+/*------------------------------------------mls richtextbox yellow-------------------------------------------------*/
+.reec-richtextbox-yellow{
+    background:#f3e1ac;
+    padding-left: 1%;
+}
+#content .reec-richtextbox-yellow li{
+    color:#000;
+    font-size:10px;
+    font-weight: normal;
+    line-height: 14px;
+}
+/*------------------------------------------title-richtextbox-yellow-------------------------------------------------*/
+.title-richtextbox-yellow{
+    background:#d9b54a;
+}
+/*------------------------------------------title-richtextbox-blue-------------------------------------------------*/
+.title-richtextbox-blue{
+    background:#0f5584;
+}
+/*------------------------------------------title-richtextbox-red-------------------------------------------------*/
+.title-richtextbox-red{
+    background:#850c0c;
+}
+/*------------------------------------------title-richtextbox-green-------------------------------------------------*/
+.title-richtextbox-green{
+    background:#598c0b;   
+}

@@ -1,3 +1,6 @@
+.header-row .logo {
+    margin-top: 20px;
+}
 #featurenavi li .text a{
     display: inline-block;
     margin-top: 3px;
@@ -85,10 +88,10 @@ body #portal-columns .portlet.portletNavigationTree {
 body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem {
     border-radius: 0.3em;
     font-size: 1.4em;
-    height: 28px;
     line-height: inherit;
+    padding-bottom: 6.5px;
+    padding-top: 6.5px;
     margin-bottom: 4%;
-    padding-top: 9px;
     text-align: center;
 }
 body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem a{
@@ -110,9 +113,6 @@ body .documentFirstHeading {
 body .developer_double-headline {
     font-size: 21.6px !important;
     font-family: sanchez;
-}
-body.subsection-properties-available #content .row{
-    margin-bottom:2%
 }
 body .documentDescription {
     font-size: 15.97px !important;
@@ -160,22 +160,22 @@ body .developer_table table tbody tr:hover {
 body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem .contenttype-folder,body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem .contenttype-document {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
-.image-inline{
+#content-wrapper .image-inline{
     width: 100%;
 }
 @media (min-width: 1200px){
     body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem a span {
-        font-size: 18px;
+        font-size: 14pt;
     }
 }
 @media (min-width: 980px) and (max-width:1199px){
     body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem a span {
-        font-size: 18px;
+        font-size: 14pt;
     }
 }
 @media (min-width: 768px) and (max-width: 979px){
     body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem a span {
-        font-size: 13px;
+        font-size: 9pt;
     }
     .galleria-info-description {
         width: 93.3%;
@@ -184,12 +184,12 @@ body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li
 }
 @media (min-width: 600px) and (max-width: 767px){
     body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem a span {
-        font-size: 9px;
+        font-size: 9pt;
     }
 }
 @media (min-width: 581px) and (max-width: 599px){
     body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem a span {
-        font-size: 10px;
+        font-size: 7.6pt;
     }
 }
 @media (min-width: 280px) and (max-width: 580px){
