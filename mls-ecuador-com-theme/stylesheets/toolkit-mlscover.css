@@ -1,4 +1,3 @@
-/*in firebug,html code richtextbox have <p><br></p> i don't know where come from*/
 #content .reec-richtextbox-red p br,
 #content .reec-richtextbox-blu p br,
 #content .reec-richtextbox-green p br,
@@ -120,7 +119,6 @@ body .reec-mlscollection-green h2{
     margin-top: 20px;
     font-style: italic;
 }
-/*------------------------------------------mls mlscollection blue-------------------------------------------------*/
 .reec-mlscollection-blue .price{
     background-color: rgba(15, 85, 132, 0.7);   
 }
@@ -128,7 +126,6 @@ body .global-wrapper #content .reec-mlscollection-blue h2 a,
 body .global-wrapper #content .reec-mlscollection-blue h2 a:hover{
     color:#1f608c !important;
 }
-/*------------------------------------------mls mlscollection red-------------------------------------------------*/
 .reec-mlscollection-red .price{
     background-color: rgba(133, 12, 12, 0.7);
 }
@@ -136,7 +133,6 @@ body .global-wrapper #content .reec-mlscollection-red h2 a,
 body .global-wrapper #content .reec-mlscollection-red h2 a:hover{
     color:#8d1c1c !important;
 }
-/*------------------------------------------mls mlscollection green-------------------------------------------------*/
 .reec-mlscollection-green .price{
     background-color: rgba(89, 140, 11, 0.7);
 }
@@ -144,7 +140,6 @@ body .global-wrapper #content .reec-mlscollection-green h2 a,
 body .global-wrapper #content .reec-mlscollection-green h2 a:hover{
     color:#64941b !important;
 }
-/*------------------------------------------mls mlscollection yellow-------------------------------------------------*/
 .reec-mlscollection-yellow .price{
     background-color: rgba(217, 181, 74, 0.7);
 }
@@ -152,7 +147,6 @@ body .global-wrapper #content .reec-mlscollection-yellow h2 a,
 body .global-wrapper #content .reec-mlscollection-yellow h2 a:hover{
     color:#a67437 !important;
 }
-/*------------------------------------------mls richtextbox blue-------------------------------------------------*/
 .reec-richtextbox-blu{
     background:#a0b7c7;
     padding-left: 1%;
@@ -163,7 +157,6 @@ body .global-wrapper #content .reec-mlscollection-yellow h2 a:hover{
     font-weight: normal;
     line-height: 14px;
 }
-/*------------------------------------------mls richtextbox red-------------------------------------------------*/
 .reec-richtextbox-red{
     background:#d6cdc4;
     padding-left: 1%;
@@ -174,7 +167,6 @@ body .global-wrapper #content .reec-mlscollection-yellow h2 a:hover{
     font-weight: normal;
     line-height: 14px;
 }
-/*------------------------------------------mls richtextbox green-------------------------------------------------*/
 .reec-richtextbox-green{
     background:#bccea1;
     padding-left: 1%;
@@ -185,7 +177,6 @@ body .global-wrapper #content .reec-mlscollection-yellow h2 a:hover{
     font-weight: normal;
     line-height: 14px;
 }
-/*------------------------------------------mls richtextbox yellow-------------------------------------------------*/
 .reec-richtextbox-yellow{
     background:#f3e1ac;
     padding-left: 1%;
@@ -196,19 +187,15 @@ body .global-wrapper #content .reec-mlscollection-yellow h2 a:hover{
     font-weight: normal;
     line-height: 14px;
 }
-/*------------------------------------------title-richtextbox-yellow-------------------------------------------------*/
 .title-richtextbox-yellow{
     background:#d9b54a;
 }
-/*------------------------------------------title-richtextbox-blue-------------------------------------------------*/
 .title-richtextbox-blue{
     background:#0f5584;
 }
-/*------------------------------------------title-richtextbox-red-------------------------------------------------*/
 .title-richtextbox-red{
     background:#850c0c;
 }
-/*------------------------------------------title-richtextbox-green-------------------------------------------------*/
 .title-richtextbox-green{
     background:#598c0b;   
 }
