@@ -95,9 +95,17 @@
             />
 
             <!-- script for google analytics -->
+            <!--
             <append
             css:content="#visual-portal-wrapper > div.row > script"
             css:theme=".global-wrapper"
+            />
+            -->
+            <!-- Plone 4.3 style -->
+            portal-footer-wrapper
+            <append
+              css:content="#portal-footer-wrapper script"
+              css:theme=".global-wrapper"
             />
 
 
