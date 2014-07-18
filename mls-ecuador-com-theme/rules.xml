@@ -95,9 +95,17 @@
             />
 
             <!-- script for google analytics -->
+            <!--
             <append
             css:content="#visual-portal-wrapper > div.row > script"
             css:theme=".global-wrapper"
+            />
+            -->
+            <!-- Plone 4.3 style -->
+            
+            <append
+              css:content="#portal-footer-wrapper script"
+              css:theme=".global-wrapper"
             />
 
 
@@ -109,8 +117,9 @@
 
             <!-- add searchmask in header -->
             <append
-                css:content="#home-search-wrapper"
+                css:content=".template-mlsecuador_frontpage #portal-top > div > #home-search-wrapper"
                 css:theme=".topimage-header"
+                css:if-content="#portal-content-header img"
                 />
 
         </rules>
@@ -143,4 +152,28 @@
             />
 
         </rules>
+        <rules css:if-content="body.portaltype-collective-cover-content">
+            <!-- add header img if exist for covers -->
+            <replace
+                css:content="#portal-content-header"
+                css:theme-children=".topimage-header"
+                css:if-content="#portal-content-header"
+            />
+            <append
+                css:content=".socialheader.toolkit #home-search-wrapper"
+                css:theme=".topimage-header"
+                css:if-content="#portal-content-header img"
+                />
+            
+            <!-- drop not needed translations -->
+            <drop
+                css:content=".socialheader.toolkit .lang-es"
+                css:if-content="body.site-en"
+            />
+            <drop
+                css:content=".socialheader.toolkit .lang-en"
+                css:if-content="body.site-es"
+            />
+        </rules>
+
     </rules>

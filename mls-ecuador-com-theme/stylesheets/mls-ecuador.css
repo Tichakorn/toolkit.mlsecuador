@@ -1,3 +1,87 @@
+/*--Development Gallery--*/
+#viewlet-above-content .carousel{
+    border: 3px solid #808080;
+    float: none;
+    margin-bottom: 3%;
+    padding: 2%;
+    width: auto;
+}
+#viewlet-above-content .carousel .carousel-banners{
+    width: 100% !important;
+}
+#viewlet-above-content .carousel .carousel-banners .carousel-banner{
+    width: 100% !important;
+}
+#viewlet-above-content .carousel .carousel-banners .carousel-banner .carousel-image img{
+    width: 100% !important;
+    height: 100% !important;
+}
+#viewlet-above-content .carousel .carousel-banners .carousel-banner .carousel-text{
+    background-color: rgba(0, 0, 0, 0.8);
+    bottom: 0;
+    color: #ffffff;
+    display: block;
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+    height: 25px;
+    left: -5px;
+    line-height: 1.2em;
+    margin: 0 0 0 0.75%;
+    padding: 1%;
+    position: relative;
+    right: 5px;
+    top: -431px;
+    width: 98%;
+}
+#viewlet-above-content .carousel .carousel-banners .carousel-banner .carousel-text .carousel-title{
+    float: left;
+    font-family: georgia,serif;
+    padding-left: 1%;
+    font-style: italic;
+}
+#viewlet-above-content .carousel .carousel-pager-button-next{
+    background-color: transparent;
+}
+
+#viewlet-above-content .carousel .carousel-pager-button-next span{
+    border-color: transparent transparent transparent #c7c7c7;
+    border-style: solid;
+    border-width: 25px 0 25px 20px;
+    color: transparent;
+    height: 0;
+    opacity: 0.76;
+    position: absolute;
+    right: 0;
+    top: 224px;
+    width: 0;
+    z-index: 9999;
+}
+
+#viewlet-above-content .carousel .carousel-pager-button-prev{
+    background-color: transparent;
+}
+#viewlet-above-content .carousel .carousel-pager-button-prev span{
+    border-color: transparent #c7c7c7 transparent transparent;
+    border-style: solid;
+    border-width: 25px 20px 25px 0;
+    color: transparent;
+    height: 0;
+    opacity: 0.76;
+    position: absolute;
+    left: 0;
+    top: 224px;
+    width: 0;
+    z-index: 9999;
+}
+#viewlet-above-content .carousel .carousel-pager{
+    height: 0;
+    margin: 0;
+}
+/*--Development Gallery: END --*/
+.header-row .logo {
+    margin-top: 20px;
+}
 #featurenavi li .text a{
     display: inline-block;
     margin-top: 3px;
@@ -71,12 +155,12 @@ body .navTreeItem .state-private {
 #content-core p.developer_p img{
     float: left;
     margin-bottom: 5%;
-    width: auto;
+    width: 52%;
 }
 #content-core p.developer_text_right{
     float: left;
     margin-left: 4%;
-    width: 50%;
+    width: 70%;
     line-height: 1.8em;
 }
 body #portal-columns .portlet.portletNavigationTree {
@@ -85,10 +169,10 @@ body #portal-columns .portlet.portletNavigationTree {
 body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem {
     border-radius: 0.3em;
     font-size: 1.4em;
-    height: 28px;
     line-height: inherit;
+    padding-bottom: 6.5px;
+    padding-top: 6.5px;
     margin-bottom: 4%;
-    padding-top: 9px;
     text-align: center;
 }
 body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem a{
@@ -110,9 +194,6 @@ body .documentFirstHeading {
 body .developer_double-headline {
     font-size: 21.6px !important;
     font-family: sanchez;
-}
-body.subsection-properties-available #content .row{
-    margin-bottom:2%
 }
 body .documentDescription {
     font-size: 15.97px !important;
@@ -160,22 +241,22 @@ body .developer_table table tbody tr:hover {
 body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem .contenttype-folder,body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem .contenttype-document {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
-.image-inline{
+#content-wrapper .image-inline{
     width: 100%;
 }
 @media (min-width: 1200px){
     body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem a span {
-        font-size: 18px;
+        font-size: 11pt;
     }
 }
 @media (min-width: 980px) and (max-width:1199px){
     body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem a span {
-        font-size: 18px;
+        font-size: 11pt;
     }
 }
 @media (min-width: 768px) and (max-width: 979px){
     body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem a span {
-        font-size: 13px;
+        font-size: 9pt;
     }
     .galleria-info-description {
         width: 93.3%;
@@ -184,12 +265,12 @@ body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li
 }
 @media (min-width: 600px) and (max-width: 767px){
     body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem a span {
-        font-size: 9px;
+        font-size: 9pt;
     }
 }
 @media (min-width: 581px) and (max-width: 599px){
     body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem a span {
-        font-size: 10px;
+        font-size: 7.6pt;
     }
 }
 @media (min-width: 280px) and (max-width: 580px){
@@ -198,3 +279,17 @@ body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li
         margin-left: 1.59%;
     }
 }
+
+#home-search-wrapper{
+    display:none;
+}
+.template-mlsecuador_frontpage #home-search-wrapper{
+    display:block;
+}
+
+#content .width-16 .tile.mlsec_latest-listings{
+  width:106%;    
+}
+body.portaltype-collective-cover-content .global-wrapper .topimage-header #home-search-wrapper #home-search form#form .label{
+     margin-left:5px;
+    }

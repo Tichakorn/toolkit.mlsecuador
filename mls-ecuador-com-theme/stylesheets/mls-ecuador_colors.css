@@ -1,6 +1,16 @@
+body .global-wrapper #content .developer_colored-box a,
+body .global-wrapper #content .developer_colored-box a:hover{
+    color:#FFFFFF !important;   
+}
 #featurenavi li .text a{
     border: 1px solid rgba(0, 0, 0, 0);
     color: #7D7D7D !important;
+}
+.developer_colored-box a:visited{
+    color: #FFFFFF !important;
+}
+.developer_colored-box a:hover{
+    color: #FFFFFF !important;
 }
 .galleria-info-description {
     background-color: rgba(0, 0, 0, 0.8);
@@ -14,6 +24,12 @@ body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li
     background: -moz-linear-gradient(#E9E9E9, #D5D5D5); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#E9E9E9, #D5D5D5) repeat scroll 0 0 rgba(0, 0, 0, 0);
     border: 1px solid #E9E9E9;
+}
+body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree ul.navTree li.navTreeItem {
+    background: none;
+    border-width: 0px;
+    margin: 0;
+    padding: 0;
 }
 body #portal-columns .portlet.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem a span {
     color: #2A2A2A;
