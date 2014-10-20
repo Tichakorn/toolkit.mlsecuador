@@ -3165,12 +3165,30 @@ body div#portal-column-one.width-1\:4 {
         min-height: 29px;
     }
     #content .icon-pdf a,.icon-pdf a:hover{
-        background-image: url("../images/pdf.png");
-        background-size: 100% auto;
-        height: 62px;
-        width: 200px;
-        color: transparent !important;
+        text-align: -moz-center;
+        text-align: center;
+        background-image: url("../images/icon-pdf.png");
+        background-repeat: no-repeat;
+        height: 45px;
+        width: auto;
+        padding-left: 47px;
+        display: block;    
+        color: #fff !important;
+        position: absolute;
+        top: -5px;
+    }
+    #content .icon-pdf{
+        background-image: -moz-linear-gradient(center top , #fd0707, #880808);
+        border-radius: 4px;
         display: block;
+        height: 29px;
+        line-height: 40px;
+        position: relative;
+        text-transform: uppercase;
+        top: 6px;
+        color: #fff !important;
+        width: 150px;
+        position: relative;
     }
     body .col_all div#portal-column-content.width-1\:2{
         width: 48% !important;
@@ -3274,12 +3292,30 @@ body div#portal-column-one.width-1\:4 {
         min-height: 29px;
     }
     #content .icon-pdf a,.icon-pdf a:hover{
-        background-image: url("../images/pdf.png");
-        background-size: 100% auto;
-        height: 62px;
-        width: 200px;
-        color: transparent !important;
+        text-align: -moz-center;
+        text-align: center;
+        background-image: url("../images/icon-pdf.png");
+        background-repeat: no-repeat;
+        height: 45px;
+        width: auto;
+        padding-left: 47px;
+        display: block;    
+        color: #fff !important;
+        position: absolute;
+        top: -5px;
+    }
+    #content .icon-pdf{
+        background-image: -moz-linear-gradient(center top , #fd0707, #880808);
+        border-radius: 4px;
         display: block;
+        height: 29px;
+        line-height: 40px;
+        position: relative;
+        text-transform: uppercase;
+        top: 6px;
+        color: #fff !important;
+        width: 150px;
+        position: relative;
     }
     body .col_all div#portal-column-content.width-1\:2{
         width: 48% !important;
@@ -3393,12 +3429,30 @@ body div#portal-column-one.width-1\:4 {
         margin-left: -98%;
     }
     #content .icon-pdf a,.icon-pdf a:hover{
-        background-image: url("../images/pdf.png");
-        background-size: 100% auto;
-        height: 62px;
-        width: 200px;
-        color: transparent !important;
+        text-align: -moz-center;
+        text-align: center;
+        background-image: url("../images/icon-pdf.png");
+        background-repeat: no-repeat;
+        height: 45px;
+        width: auto;
+        padding-left: 47px;
+        display: block;    
+        color: #fff !important;
+        position: absolute;
+        top: -5px;
+    }
+    #content .icon-pdf{
+        background-image: -moz-linear-gradient(center top , #fd0707, #880808);
+        border-radius: 4px;
         display: block;
+        height: 29px;
+        line-height: 40px;
+        position: relative;
+        text-transform: uppercase;
+        top: 6px;
+        color: #fff !important;
+        width: 150px;
+        position: relative;
     }
     .dev_button {
         background-position: 0 50%;
@@ -3513,12 +3567,30 @@ body div#portal-column-one.width-1\:4 {
         margin-top: 0;
     }
     #content .icon-pdf a,.icon-pdf a:hover{
-        background-image: url("../images/pdf.png");
-        background-size: 100% auto;
-        height: 62px;
-        width: 200px;
-        color: transparent !important;
+        text-align: -moz-center;
+        text-align: center;
+        background-image: url("../images/icon-pdf.png");
+        background-repeat: no-repeat;
+        height: 45px;
+        width: auto;
+        padding-left: 47px;
+        display: block;    
+        color: #fff !important;
+        position: absolute;
+        top: -5px;
+    }
+    #content .icon-pdf{
+        background-image: -moz-linear-gradient(center top , #fd0707, #880808);
+        border-radius: 4px;
         display: block;
+        height: 29px;
+        line-height: 40px;
+        position: relative;
+        text-transform: uppercase;
+        top: 6px;
+        color: #fff !important;
+        width: 150px;
+        position: relative;
     }
     body div.position-1\:4 {
         margin-left: -100%;
@@ -3615,12 +3687,30 @@ body div#portal-column-one.width-1\:4 {
         margin-top: 0;
     }
     #content .icon-pdf a,.icon-pdf a:hover{
-        background-image: url("../images/pdf.png");
-        background-size: 100% auto;
-        height: 62px;
-        width: 200px;
-        color: transparent !important;
+        text-align: -moz-center;
+        text-align: center;
+        background-image: url("../images/icon-pdf.png");
+        background-repeat: no-repeat;
+        height: 45px;
+        width: auto;
+        padding-left: 47px;
+        display: block;    
+        color: #fff !important;
+        position: absolute;
+        top: -5px;
+    }
+    #content .icon-pdf{
+        background-image: -moz-linear-gradient(center top , #fd0707, #880808);
+        border-radius: 4px;
         display: block;
+        height: 29px;
+        line-height: 40px;
+        position: relative;
+        text-transform: uppercase;
+        top: 6px;
+        color: #fff !important;
+        width: 150px;
+        position: relative;
     }
     body div.position-1\:4 {
         margin-left: -100%;
@@ -3717,12 +3807,30 @@ body div#portal-column-one.width-1\:4 {
         margin-top: 0;
     }
     #content .icon-pdf a,.icon-pdf a:hover{
-        background-image: url("../images/pdf.png");
-        background-size: 100% auto;
-        height: 62px;
-        width: 200px;
-        color: transparent !important;
+        text-align: -moz-center;
+        text-align: center;
+        background-image: url("../images/icon-pdf.png");
+        background-repeat: no-repeat;
+        height: 45px;
+        width: auto;
+        padding-left: 47px;
+        display: block;    
+        color: #fff !important;
+        position: absolute;
+        top: -5px;
+    }
+    #content .icon-pdf{
+        background-image: -moz-linear-gradient(center top , #fd0707, #880808);
+        border-radius: 4px;
         display: block;
+        height: 29px;
+        line-height: 40px;
+        position: relative;
+        text-transform: uppercase;
+        top: 6px;
+        color: #fff !important;
+        width: 150px;
+        position: relative;
     }
     body div.position-1\:4 {
         margin-left: -100%;
